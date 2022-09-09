@@ -12,6 +12,10 @@ p {
     font-size: 1.25rem;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 .clearfix::after {
     content: "";
     display: block;
@@ -78,9 +82,9 @@ p {
     border: 3px solid #2c3e4f;
     border-radius: 25px;
     display: inline-block;
-    overflow: auto;
     padding: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .items img {
